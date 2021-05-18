@@ -47,4 +47,6 @@ bot.on('message', message=>{
 	   }   
 })
 
+
+keepAlive();
 bot.login(token);
