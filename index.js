@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'ODM5NTA5MTEwODYwNjc3MTQw.YJKryQ.tuZBuoMUngV-qynCE2R8ZzfFeZc';
+const token = 'ODM5NTA5MTEwODYwNjc3MTQw.YJKryQ.2BspShDhpZ_8NsdQU2CEDcxtTdI';
 
 const PREFIX = '';
 
@@ -47,6 +47,4 @@ bot.on('message', message=>{
 	   }   
 })
 
-
-keepAlive();
 bot.login(token);
